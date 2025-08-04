@@ -55,7 +55,7 @@ async function displayCart(userCart) {
   console.log("\n🛒 Shopee cart list:");
 
   userCart.forEach((item, index) => {
-    console.log(`${index + 1}. ${item.name} - $${item.price} | ${item.quantity}x | Subtotal = ${item.subtotal()}`);
+    console.log(`${index + 1}. ${item.name} - $${item.price} | ${item.quantity}x | Subtotal = $${item.subtotal()}`);
   })
 }
 
